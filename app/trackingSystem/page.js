@@ -6,7 +6,7 @@ import HowItWorksSection from "./HowItWorksSection";
 import AITalentSection from "./AiTalentSection";
 import HeroCTASection from "./HeroCTASection";
 import FeaturesSection from "./hirebetter";
-
+import ResponsiveTestimonials from './TestimenterContactSlider'
 const page = () => {
   return (
     <>
