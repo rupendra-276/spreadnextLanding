@@ -1,10 +1,11 @@
 import React from "react";
 import { StaggeredContainer, AnimatedWrapper } from "../animation/animation";
 import LinkButton from "../button/Button";
+import Image from "next/image";
 
 const whyChooseUsData = [
   {
-    img: "/Community.png",
+    img: "/community.png",
     title: "Built-in Career Community",
     desc: "Engage with students, mentors, recruiters, and alumni in a dynamic career-focused community. Share knowledge, build networks, and grow together.",
   },
@@ -66,15 +67,22 @@ export default function WhyChooseUs() {
               key={index}
               className="rounded-4xl   hover:translate-y-2  p-4 transition duration-300"
             >
-              <img
-                src={item.img}
-                alt={item.title}
-                className="w-full h-[260px]  object-cover rounded-md mb-4"
-              />
-              <h3 className="font-semibold mt-3 text-lg mb-2 text-gray-800">
-                {item.title}
-              </h3>
-              <p className=" text-[#565656] font-[jost] ">{item.desc}</p>
+<div className="rounded-4xl hover:translate-y-2 p-4 transition duration-300">
+  <div className="relative w-full h-[260px] mb-4">
+    <Image
+      src={item.img}
+      alt={item.title}
+      fill
+      className="object-cover rounded-md"
+    />
+  </div>
+
+  <h3 className="font-semibold mt-3 text-lg mb-2 text-gray-800">
+    {item.title}
+  </h3>
+  <p className="text-[#565656] font-[jost]">{item.desc}</p>
+</div>
+
             </AnimatedWrapper>
           ))}
         </StaggeredContainer>

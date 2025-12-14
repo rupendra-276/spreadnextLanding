@@ -11,12 +11,12 @@ export default function SpreadsHeroSection() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
             <div className="space-y-4">
-              <h1 className="text-3xl md:text-4xl  font-bold text-gray-900 leading-tight">
+              <h1 className="text-3xl font-inter md:text-4xl  font-semibold text-[#05071a] leading-tight">
                 Where Careers, Creators & Communities Rise Together
               </h1>
 
-              <p className="text-[17px] text-gray-600 leading-relaxed max-w-lg font-[jost]">
-                Spreads is India's new-age microblogging job platform — where
+              <p className="text-[17px] text-gray-600 font-medium leading-relaxed max-w-lg font-open-sans">
+                Spreadnext is India's new-age microblogging job platform — where
                 your story, your skills, and your circle matter. Whether you're
                 shaping your voice, landing your next role, or building a brand
                 — this is your space to rise.

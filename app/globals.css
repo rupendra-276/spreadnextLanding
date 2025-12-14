@@ -102,7 +102,7 @@
 }
 
 body {
-  background: var(--background);
+  background: #fafafa;
   
   color: var(--foreground);
   font-family: var(--font-roboto), var(--font-open-sans), var(--font-lato), var(--font-poppins), Arial, Helvetica, sans-serif;

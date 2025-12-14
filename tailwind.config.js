@@ -160,6 +160,7 @@ module.exports = {
         playfair: ['Playfair Display', 'serif'],
         georgia: ['Georgia', 'serif'],
         times: ['Times New Roman', 'serif'],
+        inter: ["var(--font-inter)"],
       },
       fontSize: {
         "2xs": ["0.625rem", { lineHeight: "0.75rem" }],

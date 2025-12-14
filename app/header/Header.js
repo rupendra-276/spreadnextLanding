@@ -48,20 +48,19 @@ export default function Header() {
 
         {/* RIGHT AUTH BUTTONS – Desktop Only */}
         <div className="hidden md:flex items-center gap-3">
-          {/* <Link
+          <Link
             href="/signin"
-            className="px-4 py-1.5 rounded-full text-gray-700 font-medium hover:bg-gray-100 transition"
+            className="px-4 py-1.5 rounded-full text-[#05071a] font-semibold  transition"
           >
             Login
           </Link>
 
           <Link
             href="/signup"
-            className="px-4 py-1.5 rounded-full bg-blue-700 text-white font-medium hover:bg-blue-700 transition"
+            className="px-4 py-1.5 rounded-full bg-blue-700 text-white font-semibold hover:bg-blue-700 transition"
           >
             Sign Up
-          </Link> */}
-          <h5 className="text-gray-900  text-lg font-semibold">We are coming very  Soon</h5>
+          </Link>
         </div>
 
         {/* MOBILE MENU BUTTON */}
@@ -116,7 +115,7 @@ export default function Header() {
             </Link>
           </div>
         </div> */}
-          <h5 className="text-gray-600 font-semibold p-3">We are very  Soon</h5>
+          {/* <h5 className="text-gray-600 font-semibold p-3">We are very  Soon</h5> */}
 
       </div>
 
